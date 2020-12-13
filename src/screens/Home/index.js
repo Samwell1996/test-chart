@@ -14,7 +14,6 @@ const Home = ({ fetchChart, item }) => {
 function mapStateToProps(state) {
   return {
     item: chartSelector.getChart(state),
-    isLoading: state.charts.isLoading,
   };
 }
 

@@ -1,0 +1,20 @@
+{
+  "name": "test-task",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "O.Bespalko <ol.bespalko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "http": "0.0.1-security",
+    "websocket": "^1.0.33",
+    "ws": "^7.3.1"
+  }
+}

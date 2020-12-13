@@ -9,7 +9,7 @@ Go in folder frontend
 - The payload format is {date: number, value: number}
 
 # Run App
-Go in folder app
+Go in folder testchart
 
 - npm i or yarn install 
 - cd ios && pod install && cd ..

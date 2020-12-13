@@ -5,8 +5,8 @@ export default StyleSheet.create({
   container: {
     backgroundColor: colors.backgroundPrimary,
     flex: 1,
-    paddingHorizontal: 20,
-    paddingVertical: 20,
+    marginHorizontal: 20,
+    marginVertical: 20,
   },
   text: {
     color: colors.textPrimary,

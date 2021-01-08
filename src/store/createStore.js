@@ -1,6 +1,6 @@
 import { persistStore, persistCombineReducers } from 'redux-persist';
 import { compose, applyMiddleware, createStore } from 'redux';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-community/async-storage';
 import thunk from 'redux-thunk';
 import appReducer from './modules';
 import Reactotron from '../ReactotronConfig';
